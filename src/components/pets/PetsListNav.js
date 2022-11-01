@@ -1,8 +1,7 @@
-import { Link, useParams, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./PetsListNav.css";
 
 export const PetsListNav = ({ cats, dogs }) => {
-  let { kind } = useParams();
   return (
     <nav className="pets-nav">
       <ul>
